@@ -1,22 +1,39 @@
 {
-  "name": "@everythird/infra",
-  "version": "0.0.1",
-  "description": "Everythird's CSS framework for building content-first user interfaces.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "infra"
-  ],
-  "author": "@everythird",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/everythird/infra.git"
-  },
-  "bugs": {
-    "url": "https://github.com/everythird/infra/issues"
-  },
-  "homepage": "https://github.com/everythird/infra#readme"
+    "name": "@everythird/infra",
+    "version": "0.0.1",
+    "description": "Everythird's CSS framework for building content-first user interfaces.",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "postcss:watch": "postcss src/main.css -o infra.css -w"
+    },
+    "eslintConfig": {
+        "extends": [
+            "wesbos"
+        ]
+    },
+    "keywords": [
+        "infra"
+    ],
+    "author": "@everythird",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/everythird/infra.git"
+    },
+    "bugs": {
+        "url": "https://github.com/everythird/infra/issues"
+    },
+    "homepage": "https://github.com/everythird/infra#readme",
+    "devDependencies": {
+        "cssnano": "^5.1.15",
+        "postcss": "^8.4.21",
+        "postcss-cli": "^10.1.0",
+        "postcss-import": "^15.1.0",
+        "postcss-preset-env": "^8.0.1"
+    },
+    "dependencies": {
+        "eslint-config-wesbos": "^3.2.3"
+    }
 }
