@@ -6,7 +6,8 @@
     "scripts": {
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
-        "postcss:watch": "postcss src/main.css -o infra.css -w"
+        "postcss:watch": "postcss src/main.css -o infra.css -w",
+        "patch": "npm version patch --force && npm publish"
     },
     "eslintConfig": {
         "extends": [
