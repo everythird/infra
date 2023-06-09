@@ -1,40 +1,40 @@
 {
-    "name": "@everythird/infra",
-    "version": "0.0.2",
-    "description": "Everythird's CSS framework for building content-first user interfaces.",
-    "main": "index.js",
-    "scripts": {
-        "lint": "eslint .",
-        "lint:fix": "eslint . --fix",
-        "postcss:watch": "postcss src/main.css -o infra.css -w",
-        "patch": "npm version patch --force && npm publish"
-    },
-    "eslintConfig": {
-        "extends": [
-            "wesbos"
-        ]
-    },
-    "keywords": [
-        "infra"
-    ],
-    "author": "@everythird",
-    "license": "ISC",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/everythird/infra.git"
-    },
-    "bugs": {
-        "url": "https://github.com/everythird/infra/issues"
-    },
-    "homepage": "https://github.com/everythird/infra#readme",
-    "devDependencies": {
-        "cssnano": "^6.0.1",
-        "postcss": "^8.4.24",
-        "postcss-cli": "^10.1.0",
-        "postcss-import": "^15.1.0",
-        "postcss-preset-env": "^8.4.2"
-    },
-    "dependencies": {
-        "eslint-config-wesbos": "^3.2.3"
-    }
+  "name": "@everythird/infra",
+  "version": "0.0.3",
+  "description": "Everythird's CSS framework for building content-first user interfaces.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "postcss:watch": "postcss src/main.css -o infra.css -w",
+    "patch": "npm version patch --force && npm publish"
+  },
+  "eslintConfig": {
+    "extends": [
+      "wesbos"
+    ]
+  },
+  "keywords": [
+    "infra"
+  ],
+  "author": "@everythird",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everythird/infra.git"
+  },
+  "bugs": {
+    "url": "https://github.com/everythird/infra/issues"
+  },
+  "homepage": "https://github.com/everythird/infra#readme",
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.24",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-preset-env": "^8.4.2"
+  },
+  "dependencies": {
+    "eslint-config-wesbos": "^3.2.3"
+  }
 }
