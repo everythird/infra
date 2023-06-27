@@ -1,6 +1,6 @@
 {
   "name": "@everythird/infra",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Everythird's CSS framework for building content-first user interfaces.",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "postcss": "^8.4.24",
     "postcss-cli": "^10.1.0",
     "postcss-import": "^15.1.0",
-    "postcss-preset-env": "^8.4.2"
+    "postcss-preset-env": "^8.5.1"
   },
   "dependencies": {
     "eslint-config-wesbos": "^3.2.3"
