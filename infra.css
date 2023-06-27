@@ -295,27 +295,27 @@ template {
 body {
   margin: 0;
   padding: 1.5rem;
-  background-color: hsla(0, 100%, 50%, 0.1);
+  /* background-color: hsla(0, 100%, 50%, 0.1); */
 }
 @media only screen and (min-width: 768px) {
   body {
     margin: 0;
     padding: 1.5rem;
-    background-color: hsla(0, 100%, 50%, 0.1);
+    /* background-color: hsla(0, 100%, 50%, 0.1); */
   }
 }
 @media only screen and (min-width: 1040px) {
   body {
     margin: 0;
     padding: 1.75rem;
-    background-color: hsla(0, 100%, 50%, 0.1);
+    /* background-color: hsla(0, 100%, 50%, 0.1); */
   }
 }
 @media only screen and (min-width: 1440px) {
   body {
     margin: 0;
     padding: 2rem;
-    background-color: hsla(0, 100%, 50%, 0.1);
+    /* background-color: hsla(0, 100%, 50%, 0.1); */
   }
 }
 * {
@@ -338,7 +338,7 @@ div {
 h1 {
   font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: 5rem;
+  margin-bottom: 1.5rem;
   max-width: 40rem;
   line-height: 140%;
 }
