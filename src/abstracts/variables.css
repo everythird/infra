@@ -1,14 +1,3 @@
 :root {
   --rounded: 0.4rem;
-  --color-primary: #1abc9c;
-
-  /* --background: hsl(0deg, 0%, 100%); */
-  --Orange100: hsl(17deg, 100%, 97%);
-  --Orange200: hsl(17deg, 100%, 95%);
-  --Orange300: hsl(18deg, 100%, 91%);
-  --Orange400: hsl(17deg, 100%, 85%);
-  --Orange500: hsl(15deg, 100%, 75%);
-  --Orange600: hsl(13deg, 100%, 60%);
-  --Orange700: hsl(12deg, 100%, 45%);
-  --Orange800: hsl(8deg, 100%, 38%);
 }
