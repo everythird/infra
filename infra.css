@@ -330,16 +330,16 @@ ul {
   padding: 0;
   list-style: none;
 }
-ul li {
-  margin: 0.75rem 0 0 0;
-  padding: 0;
-}
 ul.horizontal {
   display: flex;
   gap: 1.5rem;
-  margin: 1.5rem 0 0 0;
+  margin: 1rem 0 0 0;
   padding: 0;
   list-style: none;
+}
+ul li {
+  margin: 0.75rem 0 0 0;
+  padding: 0;
 }
 a {
   font-size: 1.125rem;
