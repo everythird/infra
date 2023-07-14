@@ -1,6 +1,6 @@
 {
   "name": "@everythird/infra",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Everythird's CSS framework for building content-first user interfaces.",
   "main": "index.js",
   "scripts": {
