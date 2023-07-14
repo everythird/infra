@@ -318,12 +318,11 @@ p {
   padding: 0;
   font-size: 1.125rem;
   font-style: normal;
-  font-weight: 550;
-  line-height: 1.625rem;
+  font-weight: 500;
+  line-height: 1.75rem;
   color: #ababab;
 }
 p {
-  /* margin: 1.5rem 0 0 0; */
   max-width: 40rem;
 }
 ul {
@@ -331,26 +330,26 @@ ul {
   padding: 0;
   list-style: none;
 }
-ul.horiztonal {
+ul li {
+  margin: 0.75rem 0 0 0;
+  padding: 0;
+}
+ul.horizontal {
   display: flex;
   gap: 1.5rem;
   margin: 1.5rem 0 0 0;
   padding: 0;
   list-style: none;
 }
-ul li {
-  margin: 1.5rem 0 0 0;
-  padding: 0;
-}
 a {
   font-size: 1.125rem;
   font-style: normal;
-  font-weight: 550;
-  line-height: 1.625rem;
+  font-weight: 500;
+  line-height: 1.75rem;
   color: #ababab;
   text-decoration-color: #ababab;
   text-decoration-thickness: 0.125rem;
-  text-underline-offset: 0.375rem;
+  text-underline-offset: 0.5rem;
 }
 a:hover {
   color: #f7f7f7;
