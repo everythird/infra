@@ -1,22 +1,20 @@
 body {
   margin: 0;
   padding: 1.5rem;
-  /* background-color: hsla(0, 100%, 50%, 0.1); */
+  background: #2b2b2b;
 }
 
 @media only screen and (min-width: 768px) {
   body {
     margin: 0;
     padding: 1.5rem;
-    /* background-color: hsla(0, 100%, 50%, 0.1); */
   }
 }
 
 @media only screen and (min-width: 1040px) {
   body {
     margin: 0;
-    padding: 1.75rem;
-    /* background-color: hsla(0, 100%, 50%, 0.1); */
+    padding: 2rem;
   }
 }
 
@@ -24,6 +22,5 @@ body {
   body {
     margin: 0;
     padding: 2rem;
-    /* background-color: hsla(0, 100%, 50%, 0.1); */
   }
 }
