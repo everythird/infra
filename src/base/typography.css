@@ -1,5 +1,4 @@
 * {
-  font-family: 'Inter', sans-serif;
   box-sizing: border-box;
 }
 
@@ -12,9 +11,10 @@ h6,
 p {
   margin: 1.5rem 0 0 0;
   padding: 0;
+  font-family: 'Inter', sans-serif;
   font-size: 1.125rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.75rem;
   color: #ababab;
   max-width: 100%;
