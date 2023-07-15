@@ -306,6 +306,7 @@ body {
 }
 * {
   font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
 }
 h1,
 h2,
@@ -321,9 +322,18 @@ p {
   font-weight: 500;
   line-height: 1.75rem;
   color: #ababab;
+  max-width: 100%;
 }
-p {
-  max-width: 40rem;
+@media only screen and (min-width: 768px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    max-width: 40rem;
+  }
 }
 ul {
   margin: 1.5rem 0 0 0;
@@ -332,13 +342,19 @@ ul {
 }
 ul.horizontal {
   display: flex;
+  flex-direction: column;
   gap: 1.5rem;
   margin: 1rem 0 0 0;
   padding: 0;
   list-style: none;
 }
+@media only screen and (min-width: 768px) {
+  ul.horizontal {
+    flex-direction: row;
+  }
+}
 ul li {
-  margin: 0.75rem 0 0 0;
+  margin: 0;
   padding: 0;
 }
 a {
